@@ -1,12 +1,13 @@
 import nltk
 import numpy as np
 from nltk.stem.porter import PorterStemmer
+import re
 
 stemmer = PorterStemmer()
 
 # Tokenizacija (split na riječi)
 def tokenize(sentence):
-    return nltk.word_tokenize(sentence)
+    return re.findall(r"\b\w+\b", sentence.lower())
 
 # Stemmanje riječi (npr. "studiraš" -> "studira")
 def stem(word):

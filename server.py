@@ -4,7 +4,7 @@ from model import NeuralNet
 from nltk_utils import tokenize, bag_of_words
 import json
 import random
-import nltk
+#import nltk
 #nltk.download("punkt", quiet=True)
 
 app = Flask(__name__)
