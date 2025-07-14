@@ -5,7 +5,7 @@ from nltk_utils import tokenize, bag_of_words
 import json
 import random
 import nltk
-nltk.download("punkt", quiet=True)
+#nltk.download("punkt", quiet=True)
 
 app = Flask(__name__)
 
