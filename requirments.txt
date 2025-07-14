@@ -2,4 +2,3 @@ flask
 torch
 nltk
 numpy
-nltk.download("punkt")
