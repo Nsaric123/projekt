@@ -1,0 +1,115 @@
+{
+  "intents": [
+    {
+  "tag": "pozdrav",
+  "patterns": [
+    "bok",
+    "pozdrav",
+    "dobar dan",
+    "dobro jutro",
+    "dobro večer",
+    "hej",
+    "halo",
+    "čao",
+    "zdravo"
+  ],
+  "responses": [
+    "Pozdrav! Kako mogu pomoći?",
+    "Bok! Tu sam da odgovorim na tvoja pitanja o fakultetu.",
+    "Dobar dan! Slobodno pitaj što te zanima.",
+    "Hej! Kako ti mogu pomoći?"
+  ]
+},
+    {
+      "tag": "radno_vrijeme",
+      "patterns": [
+        "Kada radi referada?",
+        "Koje je radno vrijeme referade?",
+        "Kada mogu doći do referade?",
+        "Kada je referada otvorena?"
+      ],
+      "responses": [
+        "Referada radi ponedjeljkom, srijedom i petkom od 9:00 do 11:00 sati.",
+        "Referadu možeš posjetiti pon, sri i pet između 9 i 11 sati."
+      ]
+    },
+    {
+      "tag": "kontakt",
+      "patterns": [
+        "Kako mogu kontaktirati referadu?",
+        "Koji je broj referade?",
+        "Email referade?",
+        "Kontakt referade?"
+      ],
+      "responses": [
+        "Kontakt referade je referada@mathos.hr. Broj telefona: 031/224-700.",
+        "Možeš kontaktirati referadu na referada@mathos.hr ili nazvati 031/224-700."
+      ]
+    },
+    {
+      "tag": "upis_godine",
+      "patterns": [
+        "Kada su upisi?",
+        "Kako se upisujem u novu godinu?",
+        "Koji su rokovi za upis?",
+        "Što mi treba za upis godine?"
+      ],
+      "responses": [
+        "Upisi u novu akademsku godinu počinju početkom listopada. Točne datume i obrasce možeš pronaći na mathos.hr.",
+        "Za upis godine trebaš ispuniti obrazac za upis i predati ga unutar roka objavljenog na web stranici fakulteta."
+      ]
+    },
+    {
+      "tag": "dekan",
+      "patterns": [
+        "Tko je dekan fakulteta?",
+        "Kako se zove dekan?",
+        "Tko vodi fakultet?",
+        "Ime dekana?"
+      ],
+      "responses": [
+        "Dekan Fakulteta primijenjene matematike i informatike je izv. prof. dr. sc. Kristian Sabo.",
+        "Fakultet vodi izv. prof. dr. sc. Kristian Sabo trenutni dekan."
+      ]
+    },
+    {
+      "tag": "prijava_ispita",
+      "patterns": [
+        "Kako prijaviti ispit?",
+        "Gdje prijavljujem ispit?",
+        "Mogu li prijaviti ispit preko Studomata?",
+        "Način prijave ispita?"
+      ],
+      "responses": [
+        "Ispiti se prijavljuju putem Studomata, najkasnije 48 sati prije termina ispita.",
+        "Za prijavu ispita koristi Studomat – rok za prijavu je obično dva dana prije ispita."
+      ]
+    },
+    {
+      "tag": "odjava_ispita",
+      "patterns": [
+        "Kako odjaviti ispit?",
+        "Mogu li odjaviti ispit?",
+        "Do kada mogu odjaviti ispit?",
+        "Gdje se odjavljuje ispit?"
+      ],
+      "responses": [
+        "Ispit možeš odjaviti putem Studomata, najkasnije 24 sata prije ispita.",
+        "Za odjavu ispita koristi Studomat – važno je to učiniti barem dan prije ispita."
+      ]
+    },
+    {
+      "tag": "osnutak_fakulteta",
+      "patterns": [
+        "Kada je osnovan fakultet?",
+        "Koje godine je osnovan MATHOS?",
+        "Godina osnutka fakulteta?",
+        "Kad je počeo rad fakulteta?"
+      ],
+      "responses": [
+        "Fakultet primijenjene matematike i informatike osnovan je 2005. godine.",
+        "MATHOS je osnovan 2005. godine kao samostalna visokoobrazovna institucija."
+      ]
+    }
+  ]
+}
