@@ -6,8 +6,11 @@ import json
 import random
 #import nltk
 #nltk.download("punkt", quiet=True)
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
 
 # Učitaj model i podatke
 with open("intents.json", "r", encoding="utf-8") as f:
@@ -28,6 +31,10 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "MATHOSBot"
+
+@app.route("/", methods=["GET"])
+def home():
+    return {"status": "MathosBot API is running"}, 200
 
 @app.route("/chat", methods=["POST"])
 def chat():
