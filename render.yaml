@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: mathos-chatbot-1
+    name: Mathos_Chatbot_1
     env: python
     plan: free
     buildCommand: ""
